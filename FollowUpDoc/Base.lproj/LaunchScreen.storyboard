@@ -16,12 +16,24 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="LogoHomeScreen" translatesAutoresizingMaskIntoConstraints="NO" id="j6d-Bk-IVP">
+                                <rect key="frame" x="175" y="175" width="250" height="250"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="j6d-Bk-IVP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2fr-qX-Axf"/>
+                            <constraint firstItem="j6d-Bk-IVP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OJP-XH-qTA"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="1043" y="-85"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LogoHomeScreen" width="250" height="250"/>
+    </resources>
 </document>
