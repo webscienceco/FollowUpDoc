@@ -52,24 +52,24 @@ class Shoulder: BodyPart {
 //        bandPullApart.targetAreas = "Shoulders"
 //        exercises.append(bandPullApart)
         
-        frontRaise.descriptive = "text"
-        frontRaise.eSets = 0
-        frontRaise.eSetsTobeDone = 3
-        frontRaise.instructions = "text"
-        frontRaise.isCompleted = false
-        frontRaise.name = "Front Raise"
-        frontRaise.targetAreas = "Shoulders"
-        exercises.append(frontRaise)
+//        frontRaise.descriptive = "text"
+//        frontRaise.eSets = 0
+//        frontRaise.eSetsTobeDone = 3
+//        frontRaise.instructions = "text"
+//        frontRaise.isCompleted = false
+//        frontRaise.name = "Front Raise"
+//        frontRaise.targetAreas = "Shoulders"
+//        exercises.append(frontRaise)
 //
-//        lateralRaise.descriptive = "text"
-//        lateralRaise.eSets = 0
-//        lateralRaise.eSetsTobeDone = 10
-//        lateralRaise.instructions = "1. Raise upper arms to sides until elbows are shoulder height.\n2. Maintain elbows' height above or equal to wrists.\n3. Lower and repeat."
-//        lateralRaise.isCompleted = false
-//        lateralRaise.name = "Lateral Raise"
-//        lateralRaise.targetAreas = "Shoulders"
-//        exercises.append(lateralRaise)
-//        
+        lateralRaise.descriptive = "text"
+        lateralRaise.eSets = 0
+        lateralRaise.eSetsTobeDone = 3
+        lateralRaise.instructions = "1. Raise upper arms to sides until elbows are shoulder height.\n2. Maintain elbows' height above or equal to wrists.\n3. Lower and repeat."
+        lateralRaise.isCompleted = false
+        lateralRaise.name = "Lateral Raise"
+        lateralRaise.targetAreas = "Shoulders"
+        exercises.append(lateralRaise)
+
         return exercises
     }
 }
