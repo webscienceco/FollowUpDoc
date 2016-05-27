@@ -20,11 +20,18 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="LogoHomeScreen" translatesAutoresizingMaskIntoConstraints="NO" id="j6d-Bk-IVP">
                                 <rect key="frame" x="175" y="175" width="250" height="250"/>
                             </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Loading your recovery experience" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6vt-d1-slw">
+                                <rect key="frame" x="180" y="477" width="240" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="j6d-Bk-IVP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2fr-qX-Axf"/>
                             <constraint firstItem="j6d-Bk-IVP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OJP-XH-qTA"/>
+                            <constraint firstItem="6vt-d1-slw" firstAttribute="top" secondItem="j6d-Bk-IVP" secondAttribute="bottom" constant="52" id="swV-jy-nbL"/>
+                            <constraint firstItem="6vt-d1-slw" firstAttribute="centerX" secondItem="j6d-Bk-IVP" secondAttribute="centerX" id="wdy-RD-BSS"/>
                         </constraints>
                     </view>
                 </viewController>
